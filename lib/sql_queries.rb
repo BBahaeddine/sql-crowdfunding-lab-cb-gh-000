@@ -15,7 +15,7 @@ def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_
 end
 
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
-"SELECT projects.title AS Project, pledges.amount AS Amount FROM projects INNER JOIN pledges ON projects.id = pledges.project_id WHERE projects.title = 'My book on SQL'"
+"SELECT projects.title AS Project, SUM(pledges.amount) AS Amount FROM projects INNER JOIN pledges ON projects.id = pledges.project_id GROUP BY Project HAVING Amount >= projects.funding_goal"
 
 # "SELECT projects.title AS title, projects.funding_goal AS goal, SUM(pledges.amount) FROM projects INNER JOIN pledges ON projects.id = pledges.project_id GROUP BY title"
 end
