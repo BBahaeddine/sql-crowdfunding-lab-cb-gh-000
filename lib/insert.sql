@@ -1,1 +1,32 @@
-INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES();
+INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES("project1", "finance", "goal1", "today", "tomorrow");
+INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES("project2", "finance", "goal1", "today", "tomorrow");
+INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES("project3", "finance", "goal1", "today", "tomorrow");
+INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES("project4", "finance", "goal1", "today", "tomorrow");
+INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES("project5", "finance", "goal1", "today", "tomorrow");
+INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES("project6", "finance", "goal1", "today", "tomorrow");
+INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES("project7", "finance", "goal1", "today", "tomorrow");
+INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES("project8", "finance", "goal1", "today", "tomorrow");
+INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES("project9", "finance", "goal1", "today", "tomorrow");
+INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES("project10", "finance", "goal1", "today", "tomorrow");
+INSERT INTO users(name, age) VALUES ("user1", 18);
+INSERT INTO users(name, age) VALUES ("user2", 20);
+INSERT INTO users(name, age) VALUES ("user3", 21);
+INSERT INTO users(name, age) VALUES ("user4", 18);
+INSERT INTO users(name, age) VALUES ("user5", 20);
+INSERT INTO users(name, age) VALUES ("user6", 18);
+INSERT INTO users(name, age) VALUES ("user7", 18);
+INSERT INTO users(name, age) VALUES ("user8", 18);
+INSERT INTO users(name, age) VALUES ("user9", 18);
+INSERT INTO users(name, age) VALUES ("user10", 30);
+INSERT INTO users(name, age) VALUES ("user11", 30);
+INSERT INTO users(name, age) VALUES ("user12", 30);
+INSERT INTO users(name, age) VALUES ("user13", 31);
+INSERT INTO users(name, age) VALUES ("user14", 31);
+INSERT INTO users(name, age) VALUES ("user15", 19);
+INSERT INTO users(name, age) VALUES ("user16", 18);
+INSERT INTO users(name, age) VALUES ("user17", 19);
+INSERT INTO users(name, age) VALUES ("user18", 18);
+INSERT INTO users(name, age) VALUES ("user19", 19);
+INSERT INTO users(name, age) VALUES ("user20", 20);
+
+INSERT INTO pledges(amount, user_id, project_id) VALUES ()
